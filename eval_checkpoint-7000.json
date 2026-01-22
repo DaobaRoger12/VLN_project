@@ -1,0 +1,47 @@
+{
+  "checkpoint": "checkpoint-7000",
+  "eval_samples": 1000,
+  "timestamp": "2026-01-12T17:20:03.356396",
+  "metrics": {
+    "exact_match_accuracy": 0.467,
+    "type_accuracy": 0.736,
+    "direction_accuracy": 0.691,
+    "valid_prediction_rate": 0.999
+  },
+  "turn_stats": {
+    "total_turn_gt": 458,
+    "type_match_turn": 315,
+    "direction_correct": 270,
+    "direction_wrong": 45,
+    "angle_correct": 161,
+    "gt_left_pred_left": 144,
+    "gt_left_pred_right": 21,
+    "gt_right_pred_left": 24,
+    "gt_right_pred_right": 126,
+    "turn_type_accuracy": 0.6877729257641921,
+    "turn_direction_accuracy": 0.8571428571428571,
+    "turn_angle_accuracy": 0.5111111111111111,
+    "turn_confusion_rate": 0.14285714285714285,
+    "turn_left_accuracy": 0.8727272727272727,
+    "turn_right_accuracy": 0.84
+  },
+  "move_stats": {
+    "total_move_gt": 466,
+    "type_match_move": 405,
+    "distance_correct": 290,
+    "move_type_accuracy": 0.869098712446352,
+    "move_distance_accuracy": 0.7160493827160493
+  },
+  "gt_type_distribution": {
+    "turn": 458,
+    "move": 466,
+    "stop": 76,
+    "unknown": 0
+  },
+  "pred_type_distribution": {
+    "turn": 400,
+    "move": 578,
+    "stop": 22,
+    "unknown": 0
+  }
+}
