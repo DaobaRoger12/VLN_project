@@ -1,0 +1,15 @@
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.51.3
+unsloth==0.6.0
+trl==0.9.6
+safetensors==0.5.3
+tqdm==4.67.1
+Pillow==11.3.0
+numpy==1.24.3
+peft==0.15.2
+# If using CUDA, ensure correct CUDA toolkit is installed for your system
+# If using vllm, add: vllm==0.4.0
+# If using datasets, add: datasets==4.0.0
+# If using fastapi/flask for serving, add as needed
+# Add any other custom/model-specific dependencies here
